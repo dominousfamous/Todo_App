@@ -1,0 +1,31 @@
+<%- include('../templates/head.ejs') %>
+
+    <div class="container">
+        <form action='/register' method = 'POST'>
+            <label for "username"><b>USERNAME</b></label>
+            <div class = 'form-group'>
+                <input class = "form-control" autocomplete = "off" name = 'username' placeholder = 'Create username' type = "text">
+            </div>
+        
+            <label for "password"><b>PASSWORD</b></label>
+            <div class = 'form-group'>
+                <input class = "form-control" autocomplete = "off" name = 'password' placeholder = 'Create password' type = "password">
+            </div>
+        
+            <label for "confirmation"><b>CONFIRM PASSWORD</b></label>
+            <div class = 'form-group'>
+                <input class = "form-control" autocomplete = "off" name = 'confirmation' placeholder = 'Confirm password' type = "password">
+            </div>
+            <div class = 'form-group'>
+                <input class = "btn btn-primary" autocomplete = "off" name = 'submit' value = 'submit' type = "submit">
+            </div>
+        </form>
+    </div>
+
+    <!--Log in-->
+    <div>
+        <center><a href="/login">Already have an account? Login</a></center>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<%- include('../templates/head.ejs') %>
+
+    <h1 class="fonts"><center><%= username %>'s events for today (<%=month%>/<%=day%>/<%=year%>)</center></h1> 
+
+    <div class="list-group">
+        <center>
+            <button type="button" style="width:700px" class="list-group-item list-group-item-action active">
+            Whatever it is, you got this!!
+            </button>
+        </center>
+
+        <!--Display posts-->
+        <% posts.forEach(post => { %>
+              <% const description = post.event; %>
+              <center>
+                    <button style="width:700px" type="button" class="list-group-item list-group-item-action">
+                        <%= description %>
+                    </button>
+              </center>
+         <% }) %>
+    </div>
+</body>
+</html>
