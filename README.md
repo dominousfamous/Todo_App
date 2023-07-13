@@ -4,7 +4,7 @@
 - Starter app to get me comfortable with the JavaScript frameworks
 - Backend focused (no React in this application)
 
-### What I did
+## What I did
 - Used express-session to authenticate users
 - Used mongoose to create a user schema
 - Updated and retrieved data from mongodb atlas
