@@ -7,7 +7,9 @@
 ## What I did
 - Used express-session to authenticate users
 - Used mongoose to create a user schema
+- Explored nested collections through the user schema
 - Updated and retrieved data from mongodb atlas
+  
 
 ## Conclusion
 - Basic yet very fun project for me
