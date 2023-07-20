@@ -9,7 +9,7 @@
 - Once authenticated, users can create tasks for a certain date (POST to mongodb)
 - Users can also view upcoming tasks and ones they already completed (GET from mongodb)
 
-## What I did
+## Technical details
 - Used express-session to authenticate users
 - Rendered dynamic information to the client using EJS
 - Used mongoose to create a user schema
